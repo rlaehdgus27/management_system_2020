@@ -1,15 +1,16 @@
+import React, { Component, component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+class App extends Component {
+  render() {
+    return (
+      <div className="gray-background">
+        <img src={logo} alt="logo" />
         <h2>Let's develop management system!</h2>
-      </header>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
